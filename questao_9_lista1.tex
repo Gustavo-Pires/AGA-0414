@@ -1,0 +1,385 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{afterpage}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage{fancyhdr}
+\usepackage{lipsum} 
+\usepackage{caption} 
+
+% Configurações da página
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Página \thepage}
+\renewcommand{\footrulewidth}{0.5pt} % Adiciona uma linha no rodapé
+\lfoot{IAG - USP }
+\rfoot{Gustavo Pires Bertaco -NUSP: 12745240}
+
+% Título do documento
+\title{AGA0414 - Métodos Observacionais em Astrofísica I (2023)}
+\author{Gustavo Pires Bertaco, NUSP: 12745240}
+\date{\today}
+
+
+\begin{document}
+
+\maketitle
+
+\section*{Questão 1}
+
+\begin{align*}
+\text{Altura máxima} &= 90^\circ - \left| \text{Latitude do Observador} - \text{Declinação do Objeto} \right| \\
+\text{Altura máxima} &= 90^\circ - \left| +31^\circ 58' 48'' - (-47^\circ 29') \right| \\
+\text{Altura máxima} &= 90^\circ - \left| 31^\circ 58' 48'' + 47^\circ 29' \right| \\
+\text{Altura máxima} &= 90^\circ - \left| 79^\circ 27' 48'' \right| \\
+\text{Altura máxima} &= 10^\circ 32' 12''
+\end{align*}
+
+\section*{Questão 2}
+
+Para calcular a altura máxima no céu do aglomerado globular \(47Tucanae\) observado no Laboratório Nacional de Astrofísica (LNA) em Itajubá, MG, Brasil (\(\text{Latitude: } -22^\circ 32' 04''\)) com declinação \(\delta = -72^\circ 05'\), deve-se usar a fórmula 
+\[
+\text{Altura máxima} = 90^\circ - \left| \text{Latitude do Observador} - \text{Declinação do Objeto} \right|.
+\]
+
+Substituindo os valores, temos:
+\begin{align*}
+\text{Altura máxima} &= 90^\circ - \left| -22^\circ 32' 04'' - (-72^\circ 05') \right| \\
+\text{Altura máxima} &= 90^\circ - \left| -22^\circ 32' 04'' + 72^\circ 05' \right| \\
+\text{Altura máxima} &= 90^\circ - \left| 49^\circ 33' 04'' \right| \\
+\text{Altura máxima} &= 40^\circ 26' 56''.
+\end{align*}
+
+Portanto, a altura máxima no céu que o aglomerado globular \(47Tucanae\) atinge quando observado no LNA é \(+40^\circ 26' 56''\).
+
+
+\section*{Questão 3}
+
+Para \(z < 50^\circ\) (ou \(h > 40^\circ\)):
+
+\[
+90^\circ - z < 50^\circ \implies h > 40^\circ
+\]
+
+Para \(z < 70^\circ\) (ou \(h > 20^\circ\)):
+
+\[
+90^\circ - z < 70^\circ \implies h > 20^\circ
+\]
+
+\section*{Questão 4}
+Não Realizado
+
+\section*{Questão 5}
+
+\begin{align*}
+\text{Altura máxima} &= -26^\circ 43' 51'' \\
+\text{Distância Zenital Mínima} &= 90^\circ - (-26^\circ 43' 51'') \\
+&= 116^\circ 43' 51''.
+\end{align*}
+
+Portanto, a distância zenital mínima atingida pelo alvo é \(116^\circ 43' 51''\).
+
+\section*{Questão 6}
+
+\textbf{Galáxia ESO243G49 no Aglomerado Abell 2877:}
+
+As coordenadas equatoriais da galáxia ESO243G49 são: ascensão reta \(\alpha = 01h10m28s\) e declinação \(\delta = -46°04'27''\) (J2000.0).
+
+\textbf{Opções de Observatório:}
+
+a. Observatório Interamericano de Cerro Tololo, Chile, latitude \(\phi = -30°10'20.9''\).
+
+b. Observatório Astronômico da África do Sul, África do Sul, latitude \(\phi = -33°56'03.5''\).
+
+c. Laboratório Nacional de Astrofísica (LNA), Itajubá, MG, Brasil, latitude \(\phi = -22°32'04''\).
+
+Para determinar o melhor sítio astronômico para a observação da galáxia ESO243G49, precisamos considerar a latitude do observatório e a declinação da galáxia. O ângulo zenital (\(z\)) é dado por \(z = 90° - |\phi - \delta|\), onde \(\phi\) é a latitude do observatório e \(\delta\) é a declinação da galáxia.
+
+Calculando para cada observatório:
+
+a. Para Cerro Tololo, Chile:
+\[z_a = 90° - |-30°10'20.9'' - (-46°04'27'')| = 16°06'06.1''\]
+
+b. Para o Observatório Astronômico da África do Sul:
+\[z_b = 90° - |-33°56'03.5'' - (-46°04'27'')| = 12°08'23.5''\]
+
+c. Para o Laboratório Nacional de Astrofísica (LNA), Brasil:
+\[z_c = 90° - |-22°32'04'' - (-46°04'27'')| = 23°32'23''\]
+
+Portanto, o observatório com a menor distância zenital é o Observatório Astronômico da África do Sul (opção b).
+
+
+\section*{Questão 7}
+
+\textbf{Distância Zenital Mínima para o Observatório Astronômico da África do Sul:}
+
+A declinação do alvo é \(\delta = -46°04'27''\). Para o Observatório Astronômico da África do Sul com latitude \(\phi = -33°56'03.5''\), a distância zenital mínima (\(z_{\text{min}}\)) é calculada usando a fórmula:
+
+\[
+z_{\text{min}} = 90° - \left| \phi - \delta \right|
+\]
+
+Substituindo os valores:
+
+\[
+z_{\text{min}} = 90° - \left| -33°56'03.5'' - (-46°04'27'') \right|
+\]
+\[
+z_{\text{min}} = 90° - \left| -33°56'03.5'' + 46°04'27'' \right|
+\]
+\[
+z_{\text{min}} = 90° - \left| 12°08'23.5'' \right|
+\]
+\[
+z_{\text{min}} = 77°51'36.5''
+\]
+
+
+\section*{Questão 8}
+\textbf{Galáxia ESO240G11 no Laboratório Nacional de Astrofísica (LNA), Brasil:}
+
+A declinação da galáxia ESO240G11 é \(\delta = -47°43'38''\). A latitude do Laboratório Nacional de Astrofísica (LNA) é \(\phi = -22°32'04''\).
+
+Para determinar por quanto tempo a galáxia ESO240G11 satisfaz a condição \(h \geq 30^\circ\) (ou \(z \leq 60^\circ\)), onde \(h\) é a altura e \(z\) é a distância zenital, usamos a fórmula \(z = 90^\circ - h\). A condição \(h \geq 30^\circ\) é equivalente a \(z \leq 60^\circ\).
+
+Substituindo os valores, temos:
+
+\[
+z = 90^\circ - \left| \phi - \delta \right| 
+= 90^\circ - \left| (-22°32'04'') - (-47°43'38'') \right| 
+\]
+\[
+= 90^\circ - \left| (-22°32'04'') + (47°43'38'') \right| 
+= 90^\circ - \left| 25°11'34'' \right| 
+= 64°48'26''
+\]
+
+Portanto, a galáxia ESO240G11 satisfaz a condição \(h \geq 30^\circ\) (ou \(z \leq 60^\circ\)) durante todo o tempo em que está acima de \(30^\circ\) de altura no céu quando observada do Laboratório Nacional de Astrofísica (LNA), Brasil.
+
+
+\section*{Questão 9}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{questao9.png}
+    \caption{4 objetos que podem ser observados durante as noites de observação no LNA.} % * remove a numeração da legenda
+    \label{fig:questao9}
+\end{figure}
+
+
+\section*{Questão 10}
+Acoplamento em fibras ópticas é essencial para melhorar a eficiência da observação astronômica. O uso de fibras ópticas permite a coleta eficaz de dados e transmissão de informações em instrumentos modernos. Um modelo simplificado de fibra óptica consiste em um núcleo cilíndrico circular de vidro com índice de refração \(n_2\) e um revestimento com índice de refração \(n_3\). Vamos calcular o ângulo de incidência \(\theta\) máximo na face de entrada para o qual a luz será guiada dentro da fibra por reflexões totais sucessivas em função dos índices de refração do ar \(n_1\), do núcleo e do revestimento.
+
+a) Para calcular o ângulo de incidência máximo (\(\theta\)), podemos usar a fórmula \(n_1 \sin(\theta) = \sqrt{n_2^2 - n_1^2}\). Substituindo \(n_1\), \(n_2\) e \(n_3\) pelos valores apropriados, podemos encontrar \(\theta\).
+
+b) A abertura numérica (NA, \textit{Numerical Aperture}) da fibra é definida como \(n_1 \sin(\theta)\). Apresentaremos o resultado obtido em função do NA.
+
+c) O resultado também pode ser expresso em termos do número F (\textit{f-number}).
+
+\begin{enumerate}
+    \item[a)]
+    \[
+    \theta = \sin^{-1}\left(\sqrt{\frac{n_2^2 - n_1^2}{n_1^2}}\right)
+    \]
+    
+    \item[b)]
+    \[
+    \text{NA} = n_1 \sin(\theta) = \sqrt{n_2^2 - n_1^2}
+    \]
+    
+    \item[c)]
+    \[
+    F = \frac{1}{2 \cdot \text{NA}}
+    \]
+\end{enumerate}
+
+Essas equações descrevem a relação entre o ângulo de incidência máximo, a abertura numérica e o número F para otimizar o acoplamento em fibras ópticas.
+
+
+\section*{Questão 11}
+
+a) \textbf{Equação de Reflexão via Princípio de Fermat:}
+
+Para a reflexão, considere um raio de luz viajando entre dois pontos \(A\) e \(B\). O caminho óptico é dado por \(L = AB + BC\), onde \(AB\) é a distância entre \(A\) e o ponto de reflexão \(C\), e \(BC\) é a distância de \(C\) a \(B\). O tempo \(t\) necessário para percorrer esse caminho é dado por \(t = \frac{L}{v}\), onde \(v\) é a velocidade da luz. 
+
+Para minimizar \(t\), usamos o princípio de Fermat. Se \(\theta_i\) é o ângulo de incidência e \(\theta_r\) é o ângulo de reflexão, a equação de Fermat para a reflexão é:
+
+\[
+\delta L = AC + CB = AC + BC = AC + \frac{AC}{\tan(\theta_i)} = AC \left(1 + \frac{1}{\tan(\theta_i)}\right)
+\]
+
+Para minimizar \(\delta L\), \(\theta_r = \theta_i\) (lei da reflexão), e a equação de reflexão é obtida como:
+
+\[
+1 + \frac{1}{\tan(\theta_i)} = \frac{1}{\tan(\theta_r)} \implies \tan(\theta_r) = -\tan(\theta_i)
+\]
+
+b) \textbf{Equação de Snell via Princípio de Fermat:}
+
+Para a refração, consideramos dois meios com índices de refração \(n_1\) e \(n_2\), onde \(n_1 > n_2\). O caminho óptico é dado por \(L = AB + BC\), onde \(AB\) é a distância entre \(A\) e o ponto de refração \(C\), e \(BC\) é a distância de \(C\) a \(B\). O tempo \(t\) necessário para percorrer esse caminho é \(t = \frac{L}{v}\).
+
+Para minimizar \(t\), aplicamos o princípio de Fermat. Se \(\theta_i\) é o ângulo de incidência e \(\theta_r\) é o ângulo de refração, a equação de Fermat para a refração é:
+
+\[
+\delta L = AC + BC = AC + \frac{AC}{\tan(\theta_i)} = AC \left(1 + \frac{1}{\tan(\theta_i)}\right)
+\]
+
+Usando a lei dos senos para o triângulo \(ABC\), temos \(AC = \frac{\sin(\theta_i)}{n_1}\) e \(BC = \frac{\sin(\theta_r)}{n_2}\). Substituindo esses valores na equação de Fermat, obtemos:
+
+\[
+1 + \frac{1}{\tan(\theta_i)} = \frac{n_2}{n_1} \left(1 + \frac{1}{\tan(\theta_r)}\right) \implies n_1 \sin(\theta_i) = n_2 \sin(\theta_r)
+\]
+
+\section*{Questão 12}
+
+A dioptria (\(D\)) é uma medida da habilidade de refração de um sistema óptico. No contexto das lentes, representa a unidade de medida da potência ou poder focal de uma lente. Matematicamente, a dioptria é o recíproco da distância focal expressa em metros (\(D = \frac{1}{\text{distância focal em metros}}\)). Quanto maior o valor em dioptrias, mais forte é a capacidade de refração ou correção da lente. Dadas as lentes apresentadas na tabela abaixo:
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+Lente & Poder Focal (\(D\)) & Abertura \\
+\hline
+L1 & 3D & 8cm \\
+L2 & 6D & 1cm \\
+L3 & 10D & 1cm \\
+\hline
+\end{tabular}
+\end{center}
+
+a) O conjunto de duas lentes mais apropriado para um telescópio depende dos requisitos específicos de foco, ampliação e campo de visão. No entanto, geralmente, para um telescópio, a ampliação é uma consideração importante. Lentes com maior poder focal fornecem maior ampliação. Portanto, o conjunto de lentes mais apropriado para um telescópio seria \(L2\) (6D) e \(L3\) (10D), pois juntas proporcionam uma ampliação significativa.
+
+b) Este tipo de telescópio é um \textit{telescópio refrator}. Telescópios refratores usam lentes para focar e ampliar a luz, proporcionando imagens claras e nítidas de objetos celestes.
+\section*{Questão 13}
+
+A resolução angular de um telescópio se refere à sua capacidade de distinguir dois pontos próximos no céu como objetos separados. Quanto maior a abertura circular (ou diâmetro) da lente objetiva, maior é a resolução angular do telescópio. Isso significa que telescópios com aberturas maiores podem discernir detalhes mais finos e apresentar uma imagem mais nítida de objetos astronômicos.
+
+O fenômeno físico responsável pela resolução óptica é a interferência de difração. Quando a luz de uma estrela ou objeto celeste passa pela abertura circular de um telescópio, ela se curva ao redor das bordas da abertura. Isso cria padrões de interferência que podem interferir na capacidade do telescópio de distinguir detalhes finos.
+
+A resolução angular (\(\theta\)) de um telescópio pode ser aproximadamente calculada usando a fórmula da difração de Rayleigh:
+
+\[
+\theta = 1.22 \times \left( \frac{\lambda}{D} \right)
+\]
+
+onde:
+\begin{itemize}
+    \item \( \theta \) é o ângulo de resolução (em radianos),
+    \item \( \lambda \) é o comprimento de onda da luz observada (em metros),
+    \item \( D \) é o diâmetro da abertura da lente objetiva (em metros).
+\end{itemize}
+
+Dessa fórmula, podemos observar que quanto menor o valor de \( \lambda \) (por exemplo, usando luz visível em vez de luz infravermelha) e quanto maior o valor de \( D \), menor será o ângulo de resolução, resultando em uma melhor resolução angular.
+
+Em resumo, a abertura circular (diâmetro) da lente objetiva de um telescópio afeta diretamente sua resolução angular. Quanto maior a abertura, melhor é a capacidade do telescópio de distinguir detalhes finos nos objetos celestes. O fenômeno físico responsável pela limitação da resolução é a interferência de difração, que é uma consequência natural da natureza ondulatória da luz.
+
+\section*{Questão 14}
+\textbf{Vantagens do Uso de Espelhos:}
+\begin{itemize}
+    \item \textbf{Aberração Cromática Reduzida:} Os espelhos não sofrem de aberração cromática, um problema comum em lentes que distorce as cores e reduz a qualidade da imagem.
+    \item \textbf{Custo Mais Baixo:} Geralmente, espelhos podem ser produzidos a um custo mais baixo do que lentes de alta qualidade, especialmente para grandes diâmetros.
+    \item \textbf{Design Óptico Simplificado:} Os sistemas ópticos com espelhos podem ter um design mais simples e compacto, facilitando a construção de telescópios de grande abertura.
+    \item \textbf{Menor Manutenção:} Espelhos geralmente requerem menos manutenção do que lentes, pois não estão expostos ao ambiente externo e não estão sujeitos a arranhões ou sujeira com tanta facilidade.
+\end{itemize}
+
+\textbf{Desvantagens do Uso de Espelhos:}
+\begin{itemize}
+    \item \textbf{Requere Superfícies Mais Precisas:} Espelhos precisam ter superfícies extremamente precisas para evitar distorções na imagem, o que pode aumentar o custo do processo de fabricação.
+    \item \textbf{Problemas com Reflexos e Difração:} Espelhos podem gerar reflexos e difração que podem interferir com a qualidade da imagem, especialmente em telescópios de alta potência.
+\end{itemize}
+
+\textbf{Vantagens do Uso de Lentes:}
+\begin{itemize}
+    \item \textbf{Ampla Gama de Materiais:} Lentes podem ser fabricadas a partir de uma variedade de materiais, permitindo a correção de diversas propriedades ópticas.
+    \item \textbf{Menor Sensibilidade ao Ambiente:} Lentes são menos sensíveis a mudanças ambientais, como variações de temperatura, do que os espelhos.
+\end{itemize}
+
+\textbf{Desvantagens do Uso de Lentes:}
+\begin{itemize}
+    \item \textbf{Aberração Cromática:} Lentes sofrem de aberração cromática, que pode distorcer as cores na imagem e requer correção adicional.
+    \item \textbf{Custo Mais Elevado para Alta Qualidade:} Lentes de alta qualidade podem ser caras, especialmente para grandes diâmetros e correção de aberrações.
+\end{itemize}
+
+\section*{Questão 15}
+A aberração cromática é um problema óptico que causa a dispersão da luz em diferentes cores, levando a imagens borradas e desfocadas. Tanto em telescópios refratores quanto refletores, a correção da aberração cromática é crucial para obter imagens nítidas e precisas. Vamos comparar como os telescópios refratores e refletores abordam esse problema e como as lentes acromáticas e os espelhos parabólicos são utilizados para corrigi-lo.
+
+\textbf{Telescópios Refratores:}
+\begin{itemize}
+    \item \textbf{Abordagem com Lentes Acromáticas:} Telescópios refratores utilizam lentes acromáticas, que são compostas por dois ou mais tipos de vidro com índices de refração diferentes. Essas lentes são projetadas para minimizar a aberração cromática, combinando os efeitos de dispersão dos diferentes tipos de vidro. Embora as lentes acromáticas reduzam a aberração cromática, elas não a eliminam completamente, especialmente em grandes aberturas.
+\end{itemize}
+
+\textbf{Telescópios Refletores:}
+\begin{itemize}
+    \item \textbf{Abordagem com Espelhos Parabólicos:} Telescópios refletores utilizam espelhos parabólicos para focar a luz. A aberração cromática não é um problema nos espelhos, pois a luz é refletida, não refratada. No entanto, os espelhos precisam ser fabricados com precisão para evitar outras formas de aberração, como a aberração esférica.
+\end{itemize}
+
+\textbf{Comparação:}
+\begin{itemize}
+    \item \textbf{Correção de Aberração Cromática:} Enquanto os telescópios refratores corrigem a aberração cromática usando lentes acromáticas, os telescópios refletores não têm esse problema intrínseco devido ao uso de espelhos.
+    \item \textbf{Desvantagens:} As lentes acromáticas ainda podem apresentar alguma aberração cromática residual, especialmente em telescópios com aberturas maiores. Por outro lado, os espelhos precisam ser fabricados com precisão para evitar outras formas de aberração.
+\end{itemize}
+
+\section*{Questão 16}
+Não Realizado
+\section*{Questão 17}
+Um telescópio Kepleriano utiliza uma lente objetiva e uma lente ocular para observações astronômicas. Dadas as informações fornecidas, vamos resolver os problemas apresentados.
+
+a) \textbf{Altura da Torre Formada pela Objetiva:}
+
+Para determinar a altura da torre (\(h'\)) formada pela objetiva, podemos usar a fórmula do telescópio Kepleriano:
+
+\[
+\frac{h'}{h} = \frac{f_o}{f_e}
+\]
+
+onde \(h\) é a altura real da torre, \(f_o\) é a distância focal da objetiva e \(f_e\) é a distância focal da lente ocular.
+
+Substituindo os valores, temos:
+
+\[
+\frac{h'}{100 \, \text{m}} = \frac{140 \, \text{cm}}{5 \, \text{cm}}
+\]
+
+Solução: \(h' = 2800 \, \text{m} = 2,8 \, \text{km}\).
+
+b) \textbf{Magnificação Angular:}
+
+A magnificação angular (\(M\)) de um telescópio é dada por:
+
+\[
+M = \frac{\text{Distância Focal da Objetiva}}{\text{Distância Focal da Ocular}} = \frac{140 \, \text{cm}}{5 \, \text{cm}} = 28
+\]
+
+Solução: \(M = 28\).
+
+c) \textbf{Tamanho do Disco de Airy:}
+
+O tamanho do disco de Airy (\(\theta\)) é dado pela fórmula:
+
+\[
+\theta = 1.22 \times \left( \frac{\lambda}{D} \right)
+\]
+
+onde \(\lambda\) é o comprimento de onda da luz e \(D\) é o diâmetro da abertura da objetiva. 
+
+Para \(\lambda = 550 \, \text{nm}\) (\(= 550 \times 10^{-9} \, \text{m}\)), podemos calcular \(D\) usando a fórmula de resolução angular:
+
+\[
+D = 1.22 \times \left( \frac{\lambda}{\theta} \right)
+\]
+
+Substituindo \(\lambda\) e \(\theta\), temos:
+
+\[
+D = 1.22 \times \left( \frac{550 \times 10^{-9} \, \text{m}}{1.22 \times \left( \frac{1.22 \times (550 \times 10^{-9} \, \text{m})}{2.8 \, \text{km}} \right)} \right)
+\]
+
+Solução: \(D \approx 2.8 \times 10^{-4} \, \text{m} = 0.28 \, \text{mm}\).
+
+\section*{Questão 18}
+Não Realizado
+
+\section*{Questão 19}
+Não Realizado
+
+\end{document}

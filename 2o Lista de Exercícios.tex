@@ -17,7 +17,7 @@
 \rfoot{Gustavo Pires Bertaco}
 
 % Título do documento
-\title{AGA0414 - Métodos Observacionais em Astrofísica I (2023)}
+\title{ \textbf{2ª Lista de exercícios} \\ AGA0414 - Métodos Observacionais em Astrofísica I (2023)}
 \author{Gustavo Pires Bertaco, NUSP: 12745240}
 \date{\today}
 
@@ -25,8 +25,40 @@
 \begin{document}
 
 \maketitle
+\section*{\large Questão 1}
+\noindent \textbf{Explique o que é um bias, como ele é obtido e para que é utilizado.} \\
+\\ 
+\textbf{Bias:} É uma imagem obtida com tempo de exposição zero. O "bias" é a leitura de um CCD sem incidência de fótons. Ele é usado para estimar o valor real de zero do CCD.
 
-\section*{Questão 14}
+O bias é obtido ao fechar a tampa do telescópio ou câmera, garantindo que nenhuma luz atinja o sensor. Esta leitura é essencial para correções nas imagens astronômicas, permitindo que os cientistas subtraiam o sinal do bias das imagens obtidas com exposições mais longas, revelando assim detalhes astronômicos mais precisos e reduzindo o ruído nas observações.
+
+\section*{Questão 2}
+\noindent \textbf{Explique o que é um flat-field, como ele é obtido e para que é utilizado.}
+
+\textbf{FLAT:} Uma imagem de uma superfície uniformemente iluminada. O flat-field é obtido expondo o sensor a uma fonte de luz homogênea, geralmente uma fonte difusa como o céu ao anoitecer ou ao amanhecer, ou um painel iluminado de forma uniforme. Essa imagem é usada para estimar e corrigir as diferenças de sensibilidade em todo o CCD, bem como as variações de ganho pixel a pixel.
+
+O flat-field é essencial na correção de imperfeições ópticas e eletrônicas do detector, como manchas e padrões de sensibilidade desigual. Após adquirir uma imagem de flat-field, ela é utilizada para corrigir as imagens astronômicas, garantindo uma representação mais precisa e uniforme das características dos objetos observados.
+
+
+\section*{Questão 3}
+\noindent \textbf{Durante um turno de observação, um astrônomo precisa determinar o seeing em que um objeto foi observado. Para isso ele obtém o perfil radial de uma estrela de campo, que é mostrado na figura abaixo. Considerando que a escala de placa do CCD é 0,18”/pxl, qual foi o seeing obtido?} \\
+
+\section*{Questão 4}
+\noindent \textbf{Considerando que estamos usando o Telescópio 1,6 m Perkin-Elmer do OPD/LNA com a câmera iXon - 4269, com dimensão de 1024 X 1024 e tamanho de pixel de 13,5 µm, instalada no foco Cassegrain com razão focal f/10, responda} \\
+\begin{itemize}
+    \item \textbf{A)} Qual é a escala de placa para o telescópio nessa configuração? Expresse em unidades de arcmin/pixel e arcmin/mm
+    \item \textbf{B)}Qual o campo de visada útil com a câmera Ixon? Expresse em arcminutos e arcsegundos.
+    \item \textbf{C)}Considerando uma possível configuração do telescópio que reduza a razão focal para F/5, qual seria a escala de placa e campo de visada útil com a câmera Ixon?
+    \item \textbf{D)}Considerando o item c), qual o parâmetro óptico que é modificado ao selecionar que a razão focal do telescópio seja reduzida? Como isso, na prática, é realizado?
+\end{itemize}
+
+\section*{Questão 5}
+\noindent \textbf{A figura retratada exibe o aglomerado estelar aberto Messier 67, situado na constelação de Câncer, capturado num campo de visão de 15' x 15'. Descreva o fenômeno observado na imagem, oferecendo evidências que sustentem sua interpretação e, se necessário, discuta possíveis métodos de correção.} \\
+
+\section*{Questão 6}
+\noindent \textbf{A imagem abaixo é de uma estrela. Descreva o efeito observado na imagem, sua origem e indique possíveis correções.} \\
+
+\section*{Lista Anterior}
 \textbf{Vantagens do Uso de Espelhos:}
 \begin{itemize}
     \item \textbf{Aberração Cromática Reduzida:} Os espelhos não sofrem de aberração cromática, um problema comum em lentes que distorce as cores e reduz a qualidade da imagem.
@@ -53,7 +85,7 @@
     \item \textbf{Custo Mais Elevado para Alta Qualidade:} Lentes de alta qualidade podem ser caras, especialmente para grandes diâmetros e correção de aberrações.
 \end{itemize}
 
-\section*{Questão 15}
+\section*{Lista Anterior}
 A aberração cromática é um problema óptico que causa a dispersão da luz em diferentes cores, levando a imagens borradas e desfocadas. Tanto em telescópios refratores quanto refletores, a correção da aberração cromática é crucial para obter imagens nítidas e precisas. Vamos comparar como os telescópios refratores e refletores abordam esse problema e como as lentes acromáticas e os espelhos parabólicos são utilizados para corrigi-lo.
 
 \textbf{Telescópios Refratores:}

@@ -17,7 +17,7 @@
 \rfoot{Gustavo Pires Bertaco}
 
 % Título do documento
-\title{ \textbf{2ª Lista de exercícios} \\ AGA0414 - Métodos Observacionais em Astrofísica I (2023)}
+\title{ \textbf{Pré Prova- 2ª Lista de exercícios} \\ AGA0414 - Métodos Observacionais em Astrofísica I (2023)}
 \author{Gustavo Pires Bertaco, NUSP: 12745240}
 \date{\today}
 
@@ -43,6 +43,29 @@ O flat-field é essencial na correção de imperfeições ópticas e eletrônica
 \section*{Questão 3}
 \noindent \textbf{Durante um turno de observação, um astrônomo precisa determinar o seeing em que um objeto foi observado. Para isso ele obtém o perfil radial de uma estrela de campo, que é mostrado na figura abaixo. Considerando que a escala de placa do CCD é 0,18”/pxl, qual foi o seeing obtido?} \\
 
+O ideal é repetir esse procedimento para pelo menos 3
+observações (começo,meio e final da noite).
+Usando o usando o imexamine é possivel estimar o FWHM(Full Width at Half Maximum) para algumas estrelas de campo, que posteriormente é usado para determinar o valor do seeing utilizando a relação entre o FWHM  da estrela e a escala de placa do CCD. O FWHM representa a largura da estrela no ponto em que sua intensidade luminosa é metade do valor máximo.
+
+Dado que o FWHM é 7.25 pixels e a escala de placa do CCD é 0.18" por pixel, você pode calcular o seeing da seguinte forma:
+
+\[
+\text{Seeing} = \text{FWHM} \times \text{Escala de Placa do CCD}
+\]
+
+Substituindo os valores dados:
+
+\[
+\text{Seeing} = 7.25 \, \text{pixels} \times 0.18" /\text{pixel}
+\]
+
+\[
+\text{Seeing} = 1.305"
+\]
+
+Portanto, o seeing obtido durante a observação do objeto foi de $1.305"$.
+
+
 \section*{Questão 4}
 \noindent \textbf{Considerando que estamos usando o Telescópio 1,6 m Perkin-Elmer do OPD/LNA com a câmera iXon - 4269, com dimensão de 1024 X 1024 e tamanho de pixel de 13,5 µm, instalada no foco Cassegrain com razão focal f/10, responda} \\
 \begin{itemize}
@@ -58,7 +81,18 @@ O flat-field é essencial na correção de imperfeições ópticas e eletrônica
 \section*{Questão 6}
 \noindent \textbf{A imagem abaixo é de uma estrela. Descreva o efeito observado na imagem, sua origem e indique possíveis correções.} \\
 
+
+O efeito observado na imagem é o blooming.
+
+O blooming ocorre quando a carga em um pixel excede o nível de saturação e a carga começa a se espalhar para pixels adjacentes.
+
+Normalmente, os sensores CCD são projetados para permitir o deslocamento vertical fácil da carga, mas barreiras potenciais são criadas para reduzir o fluxo para os pixels horizontais.
+
+Portanto, o excesso de carga fluirá preferencialmente para os vizinhos verticais mais próximos. O blooming, portanto, produz uma característica linha vertical
+
+
 \section*{Lista Anterior}
+\subsection{Telescópios}
 \textbf{Vantagens do Uso de Espelhos:}
 \begin{itemize}
     \item \textbf{Aberração Cromática Reduzida:} Os espelhos não sofrem de aberração cromática, um problema comum em lentes que distorce as cores e reduz a qualidade da imagem.
@@ -85,9 +119,6 @@ O flat-field é essencial na correção de imperfeições ópticas e eletrônica
     \item \textbf{Custo Mais Elevado para Alta Qualidade:} Lentes de alta qualidade podem ser caras, especialmente para grandes diâmetros e correção de aberrações.
 \end{itemize}
 
-\section*{Lista Anterior}
-A aberração cromática é um problema óptico que causa a dispersão da luz em diferentes cores, levando a imagens borradas e desfocadas. Tanto em telescópios refratores quanto refletores, a correção da aberração cromática é crucial para obter imagens nítidas e precisas. Vamos comparar como os telescópios refratores e refletores abordam esse problema e como as lentes acromáticas e os espelhos parabólicos são utilizados para corrigi-lo.
-
 \textbf{Telescópios Refratores:}
 \begin{itemize}
     \item \textbf{Abordagem com Lentes Acromáticas:} Telescópios refratores utilizam lentes acromáticas, que são compostas por dois ou mais tipos de vidro com índices de refração diferentes. Essas lentes são projetadas para minimizar a aberração cromática, combinando os efeitos de dispersão dos diferentes tipos de vidro. Embora as lentes acromáticas reduzam a aberração cromática, elas não a eliminam completamente, especialmente em grandes aberturas.
@@ -103,6 +134,11 @@ A aberração cromática é um problema óptico que causa a dispersão da luz em
     \item \textbf{Correção de Aberração Cromática:} Enquanto os telescópios refratores corrigem a aberração cromática usando lentes acromáticas, os telescópios refletores não têm esse problema intrínseco devido ao uso de espelhos.
     \item \textbf{Desvantagens:} As lentes acromáticas ainda podem apresentar alguma aberração cromática residual, especialmente em telescópios com aberturas maiores. Por outro lado, os espelhos precisam ser fabricados com precisão para evitar outras formas de aberração.
 \end{itemize}
+
+
+
+\subsection{Aberração cromática}
+A aberração cromática é um problema óptico que causa a dispersão da luz em diferentes cores, levando a imagens borradas e desfocadas. Tanto em telescópios refratores quanto refletores, a correção da aberração cromática é crucial para obter imagens nítidas e precisas. Vamos comparar como os telescópios refratores e refletores abordam esse problema e como as lentes acromáticas e os espelhos parabólicos são utilizados para corrigi-lo.
 
 
 \end{document}
